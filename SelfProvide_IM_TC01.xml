@@ -1,0 +1,3237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://xmlns.oracle.com/EnterpriseObjects/Core/EBO/ProvisioningOrder/V1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <env:Header>
+      <wsse:Security env:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+         <wsse:UsernameToken wsu:Id="UsernameToken-55A6949B896D75601016421013671431">
+            <wsse:Username>oms-automation</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">passw0rd</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </env:Header>
+   <env:Body>
+<ws:CreateOrder xmlns:ws="http://xmlns.oracle.com/communications/ordermanagement">
+<ng:OMSOrder xmlns:ng="http://ngpp.fulfilment.services.rogers.com">
+	<FulfillmentOrderSvcRequestFulfillmentOrderInputs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://fulfilment.services.cust.oms.amdocs.com">
+	<appCtx>
+		<localeString xsi:nil="true"/>
+		<systemid>NGPP</systemid>
+	</appCtx>
+	<ProductOrder>
+		<ID>11111111111SG</ID>
+		<creationDate xsi:nil="true"/>
+		<applicationDate xsi:nil="true"/>
+		<serviceRequiredDate xsi:nil="true"/>
+		<externalId>
+			<entityId xsi:nil="true"/>
+			<key>11111111111SG</key>
+			<systemId xsi:nil="true"/>
+		</externalId>
+		<currentSalesChannel xsi:nil="true"/>
+		<customer xsi:nil="true"/>
+		<command xsi:nil="true"/>
+		<customerOrderID xsi:nil="true"/>
+		<description xsi:nil="true"/>
+		<orderReferenceNumber xsi:nil="true"/>
+		<saved xsi:nil="true"/>
+		<originalSalesChannel xsi:nil="true"/>
+		<orderItems>
+			<ID xsi:nil="true"/>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value></value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>WorkOrderId</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>workOrderNotes</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Contact_Number</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>TechContactNumber</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>TechEmailID</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>isTrackTechDetailsSelected</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>LO</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>FulfillmentPriority</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>false</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>IsRetroactive</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>12100990</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>UserName</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>false</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>IsICS</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>LRN</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>TOROONJJDS1</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>CLLI</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>N</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>isAngler</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>ASP</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>false</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>PONIndicator</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>onuStatus</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>ontStatus</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>onuSerialNumber</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>ontSerialNumber</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>onuIndicator</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>ontIndicator</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Appointment_Date</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Appointment_Slot</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>EN</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Language</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>dsft</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>FirstName</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>dsft</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>LastName</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>dsft dsft</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>CatenatedName</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>Viveka.Thirugnanasam@rci.rogers.com</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Contact_EmailId</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>          </value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Contact_HomePhoneNumber</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>          </value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Contact_BusinessNumber</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>4165551234</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Contact_PreferredContactNumber</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Contact_Fax</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Contact_Title</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Company_Code</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Company_Name</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>Canada/Eastern</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>TimeZone</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>s8200045712693750</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>HHID</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>chosenTopology</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>PortTypeIndicator</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>11111111111pm01</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>SamKey</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Slot_Code</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>12100990</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>CreatorID</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>CC</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>SalesChannel</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>NRISProductCode</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>11111111111pm01</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>OrderID</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>childID</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>parentID</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>710748038A</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Associated_OA_ID</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>PrimaryEquipmentIndicator</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>CPR_Number</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Voice_Mail_Indicator</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>EMTA_Port</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Super_System_Account_Number</name>
+			</RBTCharacteristics>
+			<applicationDate>2022-02-09T13:23:49.000-05:00</applicationDate>
+			<command>
+				<value>CREATE</value>
+			</command>
+			<customer>
+				<Id>111111111111pm01</Id>
+				<alias>dsft dsft</alias>
+				<subType>
+					<code>R</code>
+					<default xsi:nil="true"/>
+					<obsolete xsi:nil="true"/>
+					<value xsi:nil="true"/>
+				</subType>
+				<Custtype>
+					<code>F</code>
+					<default xsi:nil="true"/>
+					<obsolete xsi:nil="true"/>
+					<value xsi:nil="true"/>
+				</Custtype>
+			</customer>
+			<billingEffectiveDate xsi:nil="true"/>
+			<dominantOrderItem>
+				<ID xsi:nil="true"/>
+				<applicationDate xsi:nil="true"/>
+				<command xsi:nil="true"/>
+				<customer xsi:nil="true"/>
+				<billingEffectiveDate xsi:nil="true"/>
+				<dueDate xsi:nil="true"/>
+				<externalID>
+					<entityId xsi:nil="true"/>
+					<key>710748038A</key>
+					<systemId xsi:nil="true"/>
+				</externalID>
+				<orderItemReferenceNumber xsi:nil="true"/>
+				<orderedProduct xsi:nil="true"/>
+				<priority xsi:nil="true"/>
+				<reason xsi:nil="true"/>
+				<reasonText xsi:nil="true"/>
+				<serviceRequiredDate xsi:nil="true"/>
+				<status xsi:nil="true"/>
+				<type xsi:nil="true"/>
+				<order xsi:nil="true"/>
+				<customerOrderItemID xsi:nil="true"/>
+				<description xsi:nil="true"/>
+			</dominantOrderItem>
+			<dueDate>2022-02-10T13:26:21.000-05:00</dueDate>
+			<externalID>
+				<entityId xsi:nil="true"/>
+				<key>710748040A</key>
+				<systemId xsi:nil="true"/>
+			</externalID>
+			<orderItemReferenceNumber>11111111111pm0101A</orderItemReferenceNumber>
+			<orderedProduct>
+				<action>
+					<code>PR</code>
+					<default xsi:nil="true"/>
+					<obsolete xsi:nil="true"/>
+					<value xsi:nil="true"/>
+				</action>
+				<affectedProduct>
+					<ID>11111111111pm0101</ID>
+					<activationStatus>
+						<code>AC</code>
+						<default xsi:nil="true"/>
+						<obsolete xsi:nil="true"/>
+						<value xsi:nil="true"/>
+					</activationStatus>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value></value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Serial_Number</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>NA</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Bulk_Offer</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value xsi:nil="true"/>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Last_Speed_Preview</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>0</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Number_of_Speed_Boosts_Used</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>0</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Number_of_Speed_Preview_Used</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>Internet</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Line_of_Business</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>false</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>BCB_Qualification</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>0</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>SubscriptionSegment</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>IM</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Fulfillment_Options</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>1</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>MSISDN</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>1</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Data_MAC_Address</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>2</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Total_number_of_dynamic_IP_addresses</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>1327818815</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>REF_AP_ID</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value/>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>ASMS_Event_ID</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value/>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Discount_Billing_offer_Instance_ID</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value/>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Campaign_Code</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>true</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Make_Fulfillment_Options_Visible</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value/>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Provisioning_Status</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value/>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Eligibility_code</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>Z</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Subscriber_Subtype_Indicator</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>HS</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Billing_Subscriber_Type</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>1</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>HouseHoldIDResource</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value xsi:nil="true"/>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Last_Speed_Boost</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>NA</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Return_Method</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>92</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>ChannelLineUp</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>11111111111pm01</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>SamKey</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value/>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>SubAction</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>U</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>CableCondition</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>C130002658</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>CaseId</name>
+					</characteristicValues>
+					<effectiveDate>2022-02-09T13:26:21.000-05:00</effectiveDate>
+					<expiryDate>2038-01-18T22:14:07.000-05:00</expiryDate>
+					<externalID>
+						<entityId xsi:nil="true"/>
+						<key xsi:nil="true"/>
+						<systemId xsi:nil="true"/>
+					</externalID>
+					<initialActivationDate xsi:nil="true"/>
+					<installationAddress>
+						<ID xsi:nil="true"/>
+						<city>MISSISSAUGA</city>
+						<country xsi:nil="true"/>
+						<county xsi:nil="true"/>
+						<postalCode>
+							<code>L5A1H4</code>
+						</postalCode>
+						<state>
+							<ID xsi:nil="true"/>
+							<code xsi:nil="true"/>
+							<name>ON</name>
+							<timeZone xsi:nil="true"/>
+						</state>
+						<street>ABANA</street>
+						<streetNumber>642</streetNumber>
+					</installationAddress>
+					<name>HSI Main Component 1</name>
+					<productSpec>
+						<Id>3612</Id>
+						<code>HSI_Main</code>
+						<dynamicProperties>
+							<name>AddOn Type</name>
+							<value xsi:nil="true"/>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>Apply Price In All Offering</name>
+							<value>false</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>CategoryRank</name>
+							<value xsi:nil="true"/>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>ChangeRegistrationKey</name>
+							<value>False</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>ClientApplication</name>
+							<value>SOM,WOM</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>CompatibleRefCaptions</name>
+							<value xsi:nil="true"/>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>Component Business Type</name>
+							<value xsi:nil="true"/>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>ConfigurationType</name>
+							<value>P</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>Entitled Product Type</name>
+							<value xsi:nil="true"/>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>Equipment Reference</name>
+							<value xsi:nil="true"/>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>FixMACAddress</name>
+							<value>False</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>ImpactLevel</name>
+							<value>130</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>InstallationAddressRequired</name>
+							<value>true</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>IsContactRequired</name>
+							<value>true</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>IsUpDownGrade</name>
+							<value>true</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>MaxCardinality</name>
+							<value xsi:nil="true"/>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>MaxQuantity</name>
+							<value>999</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>ModemTechnology</name>
+							<value xsi:nil="true"/>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>SuspendAndResumeFromSuspension</name>
+							<value>True</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>SwapEquipment</name>
+							<value>False</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>TroubleshootingOptions</name>
+							<value>ViewOnly</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>Usage Indicator</name>
+							<value>true</value>
+						</dynamicProperties>
+						<inactive>false</inactive>
+						<level>
+							<code>S</code>
+							<default xsi:nil="true"/>
+							<obsolete xsi:nil="true"/>
+							<value xsi:nil="true"/>
+						</level>
+						<saleEffectiveDate>1995-01-01T00:00:00.000-05:00</saleEffectiveDate>
+						<saleEndDate>9999-12-31T00:00:00.000-05:00</saleEndDate>
+						<sellableOutsideOffering>false</sellableOutsideOffering>
+						<suspendable>true</suspendable>
+						<producttype>
+							<code>HS</code>
+							<default xsi:nil="true"/>
+							<obsolete xsi:nil="true"/>
+							<value xsi:nil="true"/>
+						</producttype>
+					</productSpec>
+					<quantity>1</quantity>
+					<reason>
+						<code xsi:nil="true"/>
+						<default xsi:nil="true"/>
+						<obsolete xsi:nil="true"/>
+						<value xsi:nil="true"/>
+					</reason>
+					<reasonText xsi:nil="true"/>
+					<serviceID>1</serviceID>
+					<version>0</version>
+					<withPendingOrders>true</withPendingOrders>
+					<opExtn xsi:nil="true"/>
+					<offeringInstance xsi:nil="true"/>
+				</affectedProduct>
+				<children>
+					<action>
+						<code>PR</code>
+						<default xsi:nil="true"/>
+						<obsolete xsi:nil="true"/>
+						<value xsi:nil="true"/>
+					</action>
+					<affectedProduct>
+						<ID>11111111111pm0102</ID>
+						<activationStatus>
+							<code>AC</code>
+							<default xsi:nil="true"/>
+							<obsolete xsi:nil="true"/>
+							<value xsi:nil="true"/>
+						</activationStatus>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>15</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Upload_Speed</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>false</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>BCB_Qualification</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>0</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Plan_Rank</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>9999999GB</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Usage</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>NA</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Bulk_Offer</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>ON</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Province</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>0</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Number_of_emails_Included</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value/>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Provisioning_Status</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>No</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Associate_pricing_indicator</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>150</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Download_Speed</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value/>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>ASMS_Event_ID</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>No</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Notify_Allowance</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>92</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>ChannelLineUp</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value xsi:nil="true"/>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>SamKey</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value/>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>SubAction</name>
+						</characteristicValues>
+						<effectiveDate>2022-02-09T13:26:21.000-05:00</effectiveDate>
+						<expiryDate>2038-01-18T22:14:07.000-05:00</expiryDate>
+						<externalID>
+							<entityId xsi:nil="true"/>
+							<key xsi:nil="true"/>
+							<systemId xsi:nil="true"/>
+						</externalID>
+						<initialActivationDate xsi:nil="true"/>
+						<installationAddress xsi:nil="true"/>
+						<name>Fido 150u/15 - Unlimited (FBAA)</name>
+						<productSpec>
+							<Id>510424187</Id>
+							<code>HS_Fido_Internet_150_Unlimited_FBAA</code>
+							<dynamicProperties>
+								<name>AddOn Type</name>
+								<value xsi:nil="true"/>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>Apply Price In All Offering</name>
+								<value>false</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>CategoryRank</name>
+								<value xsi:nil="true"/>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>ChangeRegistrationKey</name>
+								<value>false</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>ClientApplication</name>
+								<value>SOM</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>CompatibleRefCaptions</name>
+								<value xsi:nil="true"/>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>Component Business Type</name>
+								<value xsi:nil="true"/>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>ConfigurationType</name>
+								<value>P</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>Entitled Product Type</name>
+								<value xsi:nil="true"/>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>Equipment Reference</name>
+								<value xsi:nil="true"/>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>FixMACAddress</name>
+								<value>false</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>ImpactLevel</name>
+								<value>NA</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>InstallationAddressRequired</name>
+								<value>true</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>IsContactRequired</name>
+								<value>false</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>IsUpDownGrade</name>
+								<value>true</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>MaxCardinality</name>
+								<value xsi:nil="true"/>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>MaxQuantity</name>
+								<value>999</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>ModemTechnology</name>
+								<value>D3</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>SuspendAndResumeFromSuspension</name>
+								<value>False</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>SwapEquipment</name>
+								<value>false</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>TroubleshootingOptions</name>
+								<value>ViewOnly</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>Usage Indicator</name>
+								<value>true</value>
+							</dynamicProperties>
+							<inactive>false</inactive>
+							<level xsi:nil="true"/>
+							<saleEffectiveDate>2020-12-01T00:00:00.000-05:00</saleEffectiveDate>
+							<saleEndDate>9999-12-31T00:00:00.000-05:00</saleEndDate>
+							<sellableOutsideOffering>false</sellableOutsideOffering>
+							<suspendable>true</suspendable>
+							<producttype>
+								<code>PLAN</code>
+								<default xsi:nil="true"/>
+								<obsolete xsi:nil="true"/>
+								<value xsi:nil="true"/>
+							</producttype>
+						</productSpec>
+						<quantity>1</quantity>
+						<reason>
+							<code xsi:nil="true"/>
+							<default xsi:nil="true"/>
+							<obsolete xsi:nil="true"/>
+							<value xsi:nil="true"/>
+						</reason>
+						<reasonText xsi:nil="true"/>
+						<serviceID xsi:nil="true"/>
+						<version>0</version>
+						<withPendingOrders>true</withPendingOrders>
+						<opExtn xsi:nil="true"/>
+						<offeringInstance xsi:nil="true"/>
+					</affectedProduct>
+					<productOrderItem>
+						<ID xsi:nil="true"/>
+						<applicationDate xsi:nil="true"/>
+						<command>
+							<value>CREATE</value>
+						</command>
+						<customer xsi:nil="true"/>
+						<billingEffectiveDate xsi:nil="true"/>
+						<dueDate xsi:nil="true"/>
+						<externalID>
+							<entityId xsi:nil="true"/>
+							<key>710748040A</key>
+							<systemId xsi:nil="true"/>
+						</externalID>
+						<orderItemReferenceNumber>710748040A</orderItemReferenceNumber>
+						<orderedProduct xsi:nil="true"/>
+						<priority xsi:nil="true"/>
+						<reason xsi:nil="true"/>
+						<reasonText xsi:nil="true"/>
+						<serviceRequiredDate xsi:nil="true"/>
+						<status xsi:nil="true"/>
+						<type>
+							<code>PR</code>
+							<default xsi:nil="true"/>
+							<obsolete xsi:nil="true"/>
+							<value xsi:nil="true"/>
+						</type>
+						<order xsi:nil="true"/>
+						<customerOrderItemID xsi:nil="true"/>
+						<description xsi:nil="true"/>
+					</productOrderItem>
+					<priority xsi:nil="true"/>
+				</children>
+				<productOrderItem>
+					<ID xsi:nil="true"/>
+					<applicationDate xsi:nil="true"/>
+					<command>
+						<value>CREATE</value>
+					</command>
+					<customer xsi:nil="true"/>
+					<billingEffectiveDate xsi:nil="true"/>
+					<dueDate xsi:nil="true"/>
+					<externalID>
+						<entityId xsi:nil="true"/>
+						<key>710748040A</key>
+						<systemId xsi:nil="true"/>
+					</externalID>
+					<orderItemReferenceNumber>710748040A</orderItemReferenceNumber>
+					<orderedProduct xsi:nil="true"/>
+					<priority xsi:nil="true"/>
+					<reason xsi:nil="true"/>
+					<reasonText xsi:nil="true"/>
+					<serviceRequiredDate xsi:nil="true"/>
+					<status xsi:nil="true"/>
+					<type>
+						<code>PR</code>
+						<default xsi:nil="true"/>
+						<obsolete xsi:nil="true"/>
+						<value xsi:nil="true"/>
+					</type>
+					<order xsi:nil="true"/>
+					<customerOrderItemID xsi:nil="true"/>
+					<description xsi:nil="true"/>
+				</productOrderItem>
+				<priority xsi:nil="true"/>
+			</orderedProduct>
+			<priority>0</priority>
+			<reason xsi:nil="true"/>
+			<reasonText/>
+			<serviceRequiredDate>2022-02-09T13:26:21.000-05:00</serviceRequiredDate>
+			<status>
+				<code>DE</code>
+				<default xsi:nil="true"/>
+				<obsolete xsi:nil="true"/>
+				<value xsi:nil="true"/>
+			</status>
+			<type>
+				<code>PR</code>
+				<default xsi:nil="true"/>
+				<obsolete xsi:nil="true"/>
+				<value xsi:nil="true"/>
+			</type>
+			<order xsi:nil="true"/>
+			<customerOrderItemID xsi:nil="true"/>
+			<description xsi:nil="true"/>
+		</orderItems>
+		<orderItems>
+			<ID xsi:nil="true"/>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value></value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>WorkOrderId</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>workOrderNotes</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Contact_Number</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>TechContactNumber</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>TechEmailID</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>isTrackTechDetailsSelected</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>LO</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>FulfillmentPriority</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>false</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>IsRetroactive</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>12100990</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>UserName</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>false</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>IsICS</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>LRN</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>TOROONJJDS1</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>CLLI</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>N</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>isAngler</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>ASP</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>false</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>PONIndicator</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>onuStatus</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>ontStatus</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>onuSerialNumber</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>ontSerialNumber</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>onuIndicator</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>ontIndicator</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Appointment_Date</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Appointment_Slot</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>EN</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Language</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>dsft</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>FirstName</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>dsft</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>LastName</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>dsft dsft</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>CatenatedName</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>Viveka.Thirugnanasam@rci.rogers.com</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Contact_EmailId</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>          </value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Contact_HomePhoneNumber</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>          </value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Contact_BusinessNumber</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>4165551234</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Contact_PreferredContactNumber</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Contact_Fax</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Contact_Title</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Company_Code</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Company_Name</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>Canada/Eastern</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>TimeZone</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>s8200045712693750</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>HHID</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>chosenTopology</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>PortTypeIndicator</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>11111111111pm01</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>SamKey</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Slot_Code</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>12100990</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>CreatorID</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>CC</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>SalesChannel</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>FMDR</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>NRISProductCode</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value>11111111111pm01</value>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>OrderID</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>childID</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>parentID</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value xsi:nil="true"/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Associated_OA_ID</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>PrimaryEquipmentIndicator</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>CPR_Number</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Voice_Mail_Indicator</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>EMTA_Port</name>
+			</RBTCharacteristics>
+			<RBTCharacteristics>
+				<ID xsi:nil="true"/>
+				<value/>
+				<valueForDisplay xsi:nil="true"/>
+				<valueTo xsi:nil="true"/>
+				<characteristicDefinition xsi:nil="true"/>
+				<displayInformation xsi:nil="true"/>
+				<effectiveDate xsi:nil="true"/>
+				<expiryDate xsi:nil="true"/>
+				<name>Super_System_Account_Number</name>
+			</RBTCharacteristics>
+			<applicationDate>2022-02-09T13:23:49.000-05:00</applicationDate>
+			<command>
+				<value>CREATE</value>
+			</command>
+			<customer>
+				<Id>111111111111pm01</Id>
+				<alias>dsft dsft</alias>
+				<subType>
+					<code>R</code>
+					<default xsi:nil="true"/>
+					<obsolete xsi:nil="true"/>
+					<value xsi:nil="true"/>
+				</subType>
+				<Custtype>
+					<code>F</code>
+					<default xsi:nil="true"/>
+					<obsolete xsi:nil="true"/>
+					<value xsi:nil="true"/>
+				</Custtype>
+			</customer>
+			<billingEffectiveDate xsi:nil="true"/>
+			<dueDate>2022-02-10T13:26:21.000-05:00</dueDate>
+			<externalID>
+				<entityId xsi:nil="true"/>
+				<key>710748038A</key>
+				<systemId xsi:nil="true"/>
+			</externalID>
+			<orderItemReferenceNumber>11111111111pm0102A</orderItemReferenceNumber>
+			<orderedProduct>
+				<action>
+					<code>PR</code>
+					<default xsi:nil="true"/>
+					<obsolete xsi:nil="true"/>
+					<value xsi:nil="true"/>
+				</action>
+				<affectedProduct>
+					<ID>11111111111pm0103</ID>
+					<activationStatus>
+						<code>AC</code>
+						<default xsi:nil="true"/>
+						<obsolete xsi:nil="true"/>
+						<value xsi:nil="true"/>
+					</activationStatus>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value/>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Provisioning_Status</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>1</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Gateway_Mac</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value xsi:nil="true"/>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Warranty_Start_Date</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value xsi:nil="true"/>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Allowed_Return_Date</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value/>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Discount_Billing_offer_Instance_ID</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>NA</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Return_Method</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>false</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>BCB_Qualification</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>GW</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Billing_Subscriber_Type</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value xsi:nil="true"/>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Remorse_Period_End_Date</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>true</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Make_Fulfillment_Options_Visible</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value/>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>ASMS_Event_ID</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>Z</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Subscriber_Subtype_Indicator</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>IM</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Fulfillment_Options</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>Internet</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Line_of_Business</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value/>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Campaign_Code</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value/>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Eligibility_code</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>No</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Existed_Warranty_Indicator</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>NA</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Bulk_Offer</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>1</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>MSISDN</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value xsi:nil="true"/>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Warranty_End_Date</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value/>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>Serial_Number</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>92</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>ChannelLineUp</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>11111111111pm01</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>SamKey</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value/>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>SubAction</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>U</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>CableCondition</name>
+					</characteristicValues>
+					<characteristicValues>
+						<ID xsi:nil="true"/>
+						<value>C130002658</value>
+						<valueForDisplay xsi:nil="true"/>
+						<valueTo xsi:nil="true"/>
+						<characteristicDefinition xsi:nil="true"/>
+						<displayInformation xsi:nil="true"/>
+						<effectiveDate xsi:nil="true"/>
+						<expiryDate xsi:nil="true"/>
+						<name>CaseId</name>
+					</characteristicValues>
+					<effectiveDate>2022-02-09T13:26:21.000-05:00</effectiveDate>
+					<expiryDate>2038-01-18T22:14:07.000-05:00</expiryDate>
+					<externalID>
+						<entityId xsi:nil="true"/>
+						<key xsi:nil="true"/>
+						<systemId xsi:nil="true"/>
+					</externalID>
+					<initialActivationDate xsi:nil="true"/>
+					<installationAddress>
+						<ID xsi:nil="true"/>
+						<city>MISSISSAUGA</city>
+						<country xsi:nil="true"/>
+						<county xsi:nil="true"/>
+						<postalCode>
+							<code>L5A1H4</code>
+						</postalCode>
+						<state>
+							<ID xsi:nil="true"/>
+							<code xsi:nil="true"/>
+							<name>ON</name>
+							<timeZone xsi:nil="true"/>
+						</state>
+						<street>ABANA</street>
+						<streetNumber>642</streetNumber>
+					</installationAddress>
+					<name>Modem Main 1</name>
+					<productSpec>
+						<Id>42</Id>
+						<code>Modem_Main</code>
+						<dynamicProperties>
+							<name>AddOn Type</name>
+							<value xsi:nil="true"/>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>Apply Price In All Offering</name>
+							<value>false</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>CategoryRank</name>
+							<value xsi:nil="true"/>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>ChangeRegistrationKey</name>
+							<value>false</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>ClientApplication</name>
+							<value>SOM,WOM</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>CompatibleRefCaptions</name>
+							<value xsi:nil="true"/>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>Component Business Type</name>
+							<value xsi:nil="true"/>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>ConfigurationType</name>
+							<value>P</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>Entitled Product Type</name>
+							<value xsi:nil="true"/>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>Equipment Reference</name>
+							<value xsi:nil="true"/>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>FixMACAddress</name>
+							<value>false</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>ImpactLevel</name>
+							<value>NA</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>InstallationAddressRequired</name>
+							<value>true</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>IsContactRequired</name>
+							<value>true</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>IsUpDownGrade</name>
+							<value>false</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>MaxCardinality</name>
+							<value xsi:nil="true"/>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>MaxQuantity</name>
+							<value>999</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>ModemTechnology</name>
+							<value xsi:nil="true"/>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>SuspendAndResumeFromSuspension</name>
+							<value>False</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>SwapEquipment</name>
+							<value>false</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>TroubleshootingOptions</name>
+							<value>NA</value>
+						</dynamicProperties>
+						<dynamicProperties>
+							<name>Usage Indicator</name>
+							<value>true</value>
+						</dynamicProperties>
+						<inactive>false</inactive>
+						<level>
+							<code>S</code>
+							<default xsi:nil="true"/>
+							<obsolete xsi:nil="true"/>
+							<value xsi:nil="true"/>
+						</level>
+						<saleEffectiveDate>1995-01-01T00:00:00.000-05:00</saleEffectiveDate>
+						<saleEndDate>9999-12-31T00:00:00.000-05:00</saleEndDate>
+						<sellableOutsideOffering>false</sellableOutsideOffering>
+						<suspendable>false</suspendable>
+						<producttype>
+							<code>GW</code>
+							<default xsi:nil="true"/>
+							<obsolete xsi:nil="true"/>
+							<value xsi:nil="true"/>
+						</producttype>
+					</productSpec>
+					<quantity>1</quantity>
+					<reason>
+						<code xsi:nil="true"/>
+						<default xsi:nil="true"/>
+						<obsolete xsi:nil="true"/>
+						<value xsi:nil="true"/>
+					</reason>
+					<reasonText xsi:nil="true"/>
+					<rolesReceived>
+						<role xsi:nil="true"/>
+						<roleReceiver>
+							<ID>1327818819</ID>
+							<activationStatus xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<externalID xsi:nil="true"/>
+							<initialActivationDate xsi:nil="true"/>
+							<installationAddress xsi:nil="true"/>
+							<name xsi:nil="true"/>
+							<productSpec xsi:nil="true"/>
+							<quantity xsi:nil="true"/>
+							<reason xsi:nil="true"/>
+							<reasonText xsi:nil="true"/>
+							<serviceID xsi:nil="true"/>
+							<version xsi:nil="true"/>
+							<withPendingOrders xsi:nil="true"/>
+							<opExtn xsi:nil="true"/>
+							<offeringInstance xsi:nil="true"/>
+						</roleReceiver>
+						<rolePlayer xsi:nil="true"/>
+						<associationSpec xsi:nil="true"/>
+					</rolesReceived>
+					<serviceID>1</serviceID>
+					<version>0</version>
+					<withPendingOrders>true</withPendingOrders>
+					<opExtn xsi:nil="true"/>
+					<offeringInstance xsi:nil="true"/>
+				</affectedProduct>
+				<children>
+					<action>
+						<code>PR</code>
+						<default xsi:nil="true"/>
+						<obsolete xsi:nil="true"/>
+						<value xsi:nil="true"/>
+					</action>
+					<affectedProduct>
+						<ID>11111111111pm0104</ID>
+						<activationStatus>
+							<code>AC</code>
+							<default xsi:nil="true"/>
+							<obsolete xsi:nil="true"/>
+							<value xsi:nil="true"/>
+						</activationStatus>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>12</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Warranty_Duration</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>Please Select a Model</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Foreign_Model</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>NA</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Bulk_Offer</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>857</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>OrganizationCode</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value/>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Technician_Id</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value xsi:nil="true"/>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Return_Date</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>AB6023AC1580</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Data_MAC_Address</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value/>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Shipping_Method</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>1327818815</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>REF_AP_ID</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>HITRON</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Equipment_Manufacturer</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value/>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Provisioning_Status</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>Yes</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Exchange_Allowed</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>false</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>BCB_Qualification</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>11111111111pm010</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Serial_Number</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value/>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>OUID</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value/>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Tracking_Number</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>N</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Equipment_Status</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value xsi:nil="true"/>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Delivery_Date</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>C Lost</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Subinventory</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>CLOST</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>LocatorId</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value/>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Additional_Information</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value/>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Store_Id</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>RE</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Acquisition_Type</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>NA</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Provider_Courier</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>No</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Associate_pricing_indicator</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>12100990</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Agent_Id</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>Please Select a Manufacturer</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Foreign_Manufacturer</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>CGN3U</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Model</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value xsi:nil="true"/>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>Shipment_Date</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>92</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>ChannelLineUp</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value>FMDR</value>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>NRISProductCode</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value xsi:nil="true"/>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>SamKey</name>
+						</characteristicValues>
+						<characteristicValues>
+							<ID xsi:nil="true"/>
+							<value/>
+							<valueForDisplay xsi:nil="true"/>
+							<valueTo xsi:nil="true"/>
+							<characteristicDefinition xsi:nil="true"/>
+							<displayInformation xsi:nil="true"/>
+							<effectiveDate xsi:nil="true"/>
+							<expiryDate xsi:nil="true"/>
+							<name>SubAction</name>
+						</characteristicValues>
+						<effectiveDate>2022-02-09T13:26:21.000-05:00</effectiveDate>
+						<expiryDate>2038-01-18T22:14:07.000-05:00</expiryDate>
+						<externalID>
+							<entityId xsi:nil="true"/>
+							<key xsi:nil="true"/>
+							<systemId xsi:nil="true"/>
+						</externalID>
+						<initialActivationDate xsi:nil="true"/>
+						<installationAddress xsi:nil="true"/>
+						<name>Fido Wi-Fi Modem</name>
+						<productSpec>
+							<Id>503609175</Id>
+							<code>Fido_WiFi_Modem</code>
+							<dynamicProperties>
+								<name>AddOn Type</name>
+								<value xsi:nil="true"/>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>Apply Price In All Offering</name>
+								<value>false</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>CategoryRank</name>
+								<value xsi:nil="true"/>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>ChangeRegistrationKey</name>
+								<value>false</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>ClientApplication</name>
+								<value>SOM,WOM</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>CompatibleRefCaptions</name>
+								<value xsi:nil="true"/>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>Component Business Type</name>
+								<value xsi:nil="true"/>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>ConfigurationType</name>
+								<value>P</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>Entitled Product Type</name>
+								<value xsi:nil="true"/>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>Equipment Reference</name>
+								<value xsi:nil="true"/>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>FixMACAddress</name>
+								<value>true</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>ImpactLevel</name>
+								<value>NA</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>InstallationAddressRequired</name>
+								<value>true</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>IsContactRequired</name>
+								<value>false</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>IsUpDownGrade</name>
+								<value>true</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>MaxCardinality</name>
+								<value xsi:nil="true"/>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>MaxQuantity</name>
+								<value>999</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>ModemTechnology</name>
+								<value>D3V3</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>SuspendAndResumeFromSuspension</name>
+								<value>False</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>SwapEquipment</name>
+								<value>true</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>TroubleshootingOptions</name>
+								<value>HardZap, SoftZap</value>
+							</dynamicProperties>
+							<dynamicProperties>
+								<name>Usage Indicator</name>
+								<value>false</value>
+							</dynamicProperties>
+							<inactive>false</inactive>
+							<level xsi:nil="true"/>
+							<saleEffectiveDate>2013-05-30T00:00:00.000-04:00</saleEffectiveDate>
+							<saleEndDate>9999-12-31T00:00:00.000-05:00</saleEndDate>
+							<sellableOutsideOffering>false</sellableOutsideOffering>
+							<suspendable>false</suspendable>
+							<producttype>
+								<code>CMDC</code>
+								<default xsi:nil="true"/>
+								<obsolete xsi:nil="true"/>
+								<value xsi:nil="true"/>
+							</producttype>
+						</productSpec>
+						<quantity>1</quantity>
+						<reason>
+							<code xsi:nil="true"/>
+							<default xsi:nil="true"/>
+							<obsolete xsi:nil="true"/>
+							<value xsi:nil="true"/>
+						</reason>
+						<reasonText xsi:nil="true"/>
+						<serviceID xsi:nil="true"/>
+						<version>0</version>
+						<withPendingOrders>true</withPendingOrders>
+						<opExtn xsi:nil="true"/>
+						<offeringInstance xsi:nil="true"/>
+					</affectedProduct>
+					<productOrderItem>
+						<ID xsi:nil="true"/>
+						<applicationDate xsi:nil="true"/>
+						<command>
+							<value></value>
+						</command>
+						<customer xsi:nil="true"/>
+						<billingEffectiveDate xsi:nil="true"/>
+						<dueDate xsi:nil="true"/>
+						<externalID>
+							<entityId xsi:nil="true"/>
+							<key>710748038A</key>
+							<systemId xsi:nil="true"/>
+						</externalID>
+						<orderItemReferenceNumber>710748038A</orderItemReferenceNumber>
+						<orderedProduct xsi:nil="true"/>
+						<priority xsi:nil="true"/>
+						<reason xsi:nil="true"/>
+						<reasonText xsi:nil="true"/>
+						<serviceRequiredDate xsi:nil="true"/>
+						<status xsi:nil="true"/>
+						<type>
+							<code>PR</code>
+							<default xsi:nil="true"/>
+							<obsolete xsi:nil="true"/>
+							<value xsi:nil="true"/>
+						</type>
+						<order xsi:nil="true"/>
+						<customerOrderItemID xsi:nil="true"/>
+						<description xsi:nil="true"/>
+					</productOrderItem>
+					<priority xsi:nil="true"/>
+				</children>
+				<productOrderItem>
+					<ID xsi:nil="true"/>
+					<applicationDate xsi:nil="true"/>
+					<command>
+						<value>CREATE</value>
+					</command>
+					<customer xsi:nil="true"/>
+					<billingEffectiveDate xsi:nil="true"/>
+					<dueDate xsi:nil="true"/>
+					<externalID>
+						<entityId xsi:nil="true"/>
+						<key>710748038A</key>
+						<systemId xsi:nil="true"/>
+					</externalID>
+					<orderItemReferenceNumber>710748038A</orderItemReferenceNumber>
+					<orderedProduct xsi:nil="true"/>
+					<priority xsi:nil="true"/>
+					<reason xsi:nil="true"/>
+					<reasonText xsi:nil="true"/>
+					<serviceRequiredDate xsi:nil="true"/>
+					<status xsi:nil="true"/>
+					<type>
+						<code>PR</code>
+						<default xsi:nil="true"/>
+						<obsolete xsi:nil="true"/>
+						<value xsi:nil="true"/>
+					</type>
+					<order xsi:nil="true"/>
+					<customerOrderItemID xsi:nil="true"/>
+					<description xsi:nil="true"/>
+				</productOrderItem>
+				<priority xsi:nil="true"/>
+			</orderedProduct>
+			<priority>0</priority>
+			<reason xsi:nil="true"/>
+			<reasonText/>
+			<serviceRequiredDate>2022-02-09T13:26:21.000-05:00</serviceRequiredDate>
+			<status>
+				<code>DE</code>
+				<default xsi:nil="true"/>
+				<obsolete xsi:nil="true"/>
+				<value xsi:nil="true"/>
+			</status>
+			<type>
+				<code>PR</code>
+				<default xsi:nil="true"/>
+				<obsolete xsi:nil="true"/>
+				<value xsi:nil="true"/>
+			</type>
+			<order xsi:nil="true"/>
+			<customerOrderItemID xsi:nil="true"/>
+			<description xsi:nil="true"/>
+		</orderItems>
+		<expiryDate xsi:nil="true"/>
+		<status xsi:nil="true"/>
+	</ProductOrder>
+</FulfillmentOrderSvcRequestFulfillmentOrderInputs>
+</ng:OMSOrder>
+</ws:CreateOrder>
+</env:Body>
+</env:Envelope>

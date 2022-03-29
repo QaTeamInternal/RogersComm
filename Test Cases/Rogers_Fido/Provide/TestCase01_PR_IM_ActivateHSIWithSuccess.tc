@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Provide IM test scenario - Updating with SUCCESS for HSIActivate</description>
+   <name>TestCase01_PR_IM_ActivateHSIWithSuccess</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df72c3e0-bd5f-41c1-9f6a-118f24cf5500</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>957424f5-f06d-4395-a468-78b564f91c15</id>
+      <masked>false</masked>
+      <name>referenceID</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PR_TestCase01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df72c3e0-bd5f-41c1-9f6a-118f24cf5500</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>957424f5-f06d-4395-a468-78b564f91c15</id>
+      <masked>false</masked>
+      <name>referenceID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null)</defaultValue>
+      <description></description>
+      <id>a8db77fc-ebf9-4b1d-b3e5-889cb367a224</id>
+      <masked>false</masked>
+      <name>orderXMLPath</name>
+   </variable>
+</TestCaseEntity>

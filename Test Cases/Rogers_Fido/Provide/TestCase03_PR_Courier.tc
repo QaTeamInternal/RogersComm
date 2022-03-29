@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Provide IM test scenario - Updating with Activate Failure for HSIActivate</description>
+   <name>TestCase03_PR_Courier</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5daa3085-2a90-4e50-b130-caf8d447a2f6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ad276819-e0e2-4f20-b818-53c043b68a49</id>
+      <masked>false</masked>
+      <name>referenceID</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>XMLPathTestData</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>e765c28a-f8f7-4999-b61f-de22f9d3acf1</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Provide_IM_TC01 C%3A%5C%5CUsers%5C%5Cppmukher%5C%5CKatalon+Studio%5C%5CRogers_Automation%5C%5CSelfProvide_IM_TC01.xml</data>
+   <data>Provide_IM_TC02 C%3A%5C%5CUsers%5C%5Cppmukher%5C%5CKatalon+Studio%5C%5CRogers_Automation%5C%5CSelfProvide_IM_TC02.xml</data>
+   <data>Provide_CO_TC03 C%3A%5C%5CUsers%5C%5Cppmukher%5C%5CKatalon+Studio%5C%5CRogers_Automation%5C%5CSelfProvide_CO_TC03.xml</data>
+   <data>Provide_CO_UpdateCPE C%3A%5C%5CUsers%5C%5Cppmukher%5C%5CKatalon+Studio%5C%5CRogers_Automation%5C%5CSelfProvide_CO_UpdateCPE.xml</data>
+   <data>Provide_RE_TC04 C%3A%5C%5CUsers%5C%5Cppmukher%5C%5CKatalon+Studio%5C%5CRogers_Automation%5C%5CSelfProvide_RE_TC04.xml</data>
+   <data>null null</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>TestCaseID</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>OrderXMLPath</name>
+      <size>6</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

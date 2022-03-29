@@ -1,0 +1,52 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:upd="http://www.rogers.com/cpe/update">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<upd:CPEUpdateRequest>
+			<RequestHeader>
+				<Application>Maestro_OMS</Application>
+				<MessageDate>2006-05-04T18:13:51.0</MessageDate>
+				<TransactionID>1234567890</TransactionID>
+			</RequestHeader>
+			<OrderActionID>1111111111102A</OrderActionID>
+			<Action>POS</Action>
+			<!-- 1 or more occurrences -->
+			<EquipmentDetails>
+				<ProductInstanceID>1111111111104</ProductInstanceID>
+				<CPEDetails>
+					<Attribute>
+						<AttributeName>Serial_Number</AttributeName>
+						<AttributeValue>11111111111</AttributeValue>
+					</Attribute>
+					<Attribute>
+						<AttributeName>Equipment_Manufacturer</AttributeName>
+						<AttributeValue>TECHNICOLOR</AttributeValue>
+					</Attribute>
+					<Attribute>
+						<AttributeName>MacAddress</AttributeName>
+						<AttributeValue>383FB33D5F5A</AttributeValue>
+					</Attribute>
+					<Attribute>
+						<AttributeName>LocatorId</AttributeName>
+						<AttributeValue>Shipped</AttributeValue>
+					</Attribute>
+					<Attribute>
+						<AttributeName>SKU</AttributeName>
+						<AttributeValue>CGN3U</AttributeValue>
+					</Attribute>
+					<Attribute>
+						<AttributeName>Subinventory</AttributeName>
+						<AttributeValue>Courier E</AttributeValue>
+					</Attribute>
+					<Attribute>
+						<AttributeName>WAN_MAC_Address</AttributeName>
+						<AttributeValue>383FB33D5F5C</AttributeValue>
+					</Attribute>
+					<Attribute>
+						<AttributeName>OrganizationCode</AttributeName>
+						<AttributeValue>VIR</AttributeValue>
+					</Attribute>
+				</CPEDetails>
+			</EquipmentDetails>
+		</upd:CPEUpdateRequest>
+	</soapenv:Body>
+</soapenv:Envelope>
